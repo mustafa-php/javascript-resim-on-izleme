@@ -1,0 +1,25 @@
+body {
+  background: #19303b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  display: none;
+}
+
+label {
+  background: #046cb1;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+img:not(img[src=""]) {
+  height: 20rem;
+  width: 20rem;
+}
